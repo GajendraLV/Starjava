@@ -1,0 +1,10 @@
+package com.Interface.bridge;
+
+public interface EggRice {
+    EggRice riceDetails(EggRice riceInfo);
+    boolean isEggDesi(EggRice riceInfo);
+    int dishPrice(EggRice riceInfo);
+    String eggType(EggRice riceInfo);
+    double dishTax(EggRice riceInfo);
+
+}
